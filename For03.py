@@ -12,9 +12,15 @@ def main(k,n):
     Returns:
         list: return  answer
     """
+    s = [ ]
     for i in range(n):
-        print(k)
-(main(4,2))
+        i = k
+        s.append(i)
+    return s
+print(main(5,3))
+
+
+
 
 
 
