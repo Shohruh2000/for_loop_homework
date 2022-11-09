@@ -6,9 +6,11 @@ Args:
 Returns:
     list: return  answer
     """
-    for i in ["SalohiDdIn","ManGuberdi","ShOhruh","UMId"]:
-        
-        print(i.title(),end=" ")
-    
-(main(["SalohiDdIn","ManGuberdi","ShOhruh","UMId"]))
+    list = [ ]     
+    n = len(list1)
+    for i in list1:
+        list.append(i.title())
+
+    return list
+print(main(["SalohiDdIn","ManGuberdi","ShOhruh","UMId"]))
 
