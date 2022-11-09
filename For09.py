@@ -6,4 +6,11 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    sonlar = list(range(1,11))
+    yangi = []
+    for son in sonlar:
+        yangi.append(son*price)
+    
+    return yangi
+print(main(2.25))
+
